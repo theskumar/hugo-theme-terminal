@@ -93,7 +93,7 @@ git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. You can also include it as a git submodule:
 
 ```
-git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
+git submodule add -f https://github.com/theskumar/hugo-theme-terminal.git themes/terminal
 ```
 
 ⚠️ **The theme needs at least Hugo version 0.74.x**.
