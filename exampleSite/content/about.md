@@ -1,12 +1,12 @@
 +++
 title = "About"
-date = "2019-01-25"
-author = "Radek"
+date = "2022-04-01"
+author = "Saurabh"
 +++
 
 # Hi there
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+My name is Saurabh and I'm the author of this theme. I made it to help you present your ideas easier.
 
 We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
 

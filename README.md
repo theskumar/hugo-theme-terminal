@@ -1,10 +1,10 @@
 # Terminal
 
-![Terminal](https://github.com/panr/hugo-theme-terminal/blob/master/images/screenshot.png?raw=true)
+> This is a forked version of original [Terminal](https://github.com/theskumar/hugo-theme-terminal/) theme. Thank you!
 
-### DEMO - https://hugo-terminal.now.sh/
+![Terminal](https://github.com/theskumar/hugo-theme-terminal/blob/master/images/screenshot.png?raw=true)
 
-<a href="https://www.buymeacoffee.com/panr" target="_blank"><img src="https://res.cloudinary.com/panr/image/upload/v1579374705/buymeacoffee_y6yvov.svg" alt="Buy Me A Coffee" ></a>
+### DEMO - [Coming soon]
 
 ---
 
@@ -82,12 +82,12 @@ A custom syntax highlighting based on PrismJS. All you need to do is to wrap you
 
 ## How to start
 
-You can download the theme manually by going to [https://github.com/panr/hugo-theme-terminal.git](https://github.com/panr/hugo-theme-terminal.git) and pasting it to `themes/terminal` in your root directory.
+You can download the theme manually by going to [https://github.com/theskumar/hugo-theme-terminal.git](https://github.com/theskumar/hugo-theme-terminal.git) and pasting it to `themes/terminal` in your root directory.
 
 You can also clone it directly to your Hugo folder:
 
 ```
-git clone https://github.com/panr/hugo-theme-terminal.git themes/terminal
+git clone https://github.com/theskumar/hugo-theme-terminal.git themes/terminal
 ```
 
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. You can also include it as a git submodule:
@@ -212,13 +212,13 @@ to `config.toml` file in your Hugo root directory and change params fields. In c
 
 ## Post archetype
 
-See the default `post` file params supported by the theme — https://github.com/panr/hugo-theme-terminal/blob/master/archetypes/posts.md
+See the default `post` file params supported by the theme — https://github.com/theskumar/hugo-theme-terminal/blob/master/archetypes/posts.md
 
 ## Add-ons
 
-- **Comments** — for adding comments to your blog posts please take a look at `layouts/partials/comments.html` https://github.com/panr/hugo-theme-terminal/blob/master/layouts/partials/comments.html.
-- **Extended Head** — please take a look at `layouts/partials/extended_head.html` https://github.com/panr/hugo-theme-terminal/blob/master/layouts/partials/extended_head.html
-- **Extended Footer** — please take a look at `layouts/partials/extended_footer.html` https://github.com/panr/hugo-theme-terminal/blob/master/layouts/partials/extended_footer.html
+- **Comments** — for adding comments to your blog posts please take a look at `layouts/partials/comments.html` https://github.com/theskumar/hugo-theme-terminal/blob/master/layouts/partials/comments.html.
+- **Extended Head** — please take a look at `layouts/partials/extended_head.html` https://github.com/theskumar/hugo-theme-terminal/blob/master/layouts/partials/extended_head.html
+- **Extended Footer** — please take a look at `layouts/partials/extended_footer.html` https://github.com/theskumar/hugo-theme-terminal/blob/master/layouts/partials/extended_footer.html
 
 ## How to (safely) edit the theme <a id="how-to-edit" />
 
@@ -256,7 +256,7 @@ To see the changes (remember to restart `hugo server`).
 
 ## Found a bug? <a id="bug" />
 
-If you spot any bugs, please use [Issue Tracker](https://github.com/panr/hugo-theme-terminal/issues) or create a new [Pull Request](https://github.com/panr/hugo-theme-terminal/pulls) to fix the issue.
+If you spot any bugs, please use [Issue Tracker](https://github.com/theskumar/hugo-theme-terminal/issues) or create a new [Pull Request](https://github.com/theskumar/hugo-theme-terminal/pulls) to fix the issue.
 
 ## New cool idea or feature? <a id="feature" />
 
@@ -277,16 +277,12 @@ Sounds OK? Cool, let's rock! 🤘
 
 ## Terminal theme user?
 
-I'd be happy to know more about you and what you are doing. If you want to share it, please make a contribution and [add your site to the list](https://github.com/panr/hugo-theme-terminal/blob/master/USERS.md)! 🤗
+I'd be happy to know more about you and what you are doing. If you want to share it, please make a contribution and [add your site to the list](https://github.com/theskumar/hugo-theme-terminal/blob/master/USERS.md)! 🤗
 
-## Sponsoring
-
-If you like my work and want to support the development of the project, now you can! Just:
-
-<a href="https://www.buymeacoffee.com/panr" target="_blank"><img src="https://res.cloudinary.com/panr/image/upload/v1579374705/buymeacoffee_y6yvov.svg" alt="Buy Me A Coffee" ></a>
 
 ## License
 
-Copyright © 2019-2020 Radosław Kozieł ([@panr](https://twitter.com/panr))
+Copyright © 2022 Saurabh Kumar ([@theskumar](https://twitter.com/_theskumar))
+Copyright © 2019-2020 Radosław Kozieł ([@panr](https://twitter.com/_theskumar))
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/theskumar/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information.
