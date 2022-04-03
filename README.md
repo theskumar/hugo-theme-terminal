@@ -78,7 +78,7 @@ A custom syntax highlighting based on PrismJS. All you need to do is to wrap you
 ```
 ````
 
-**Supported languages**: actionscript, apacheconf, applescript, bash, c, clike, cmake, coffeescript, cpp, csharp, csp, css, css-extras, diff, django, docker, elixir, elm, erlang, flow, fsharp, git, go, graphql, haml, handlebars, haskell, http, java, javascript, json, jsx, kotlin, latex, less, llvm, makefile, markdown, markup, markup-templating, nasm, objectivec, ocaml, perl, php, php-extras, powershell, processing, pug, python, r, reason, ruby, rust, sass, scala, scheme, scss, sql, stylus, swift, textile, toml, tsx, twig, typescript, vim, visual-basic, wasm, yaml.
+**Supported languages**: markup, css, clike, javascript, bash, brightscript, c, cmake, css-extras, csv, dart, diff, django, dns-zone-file, docker, dot, elixir, gcode, git, go, go-module, graphql, http, java, json, jsonp, kotlin, log, makefile, markdown, markup-templating, mermaid, nginx, php, plsql, properties, python, r, jsx, tsx, rest, ruby, rust, sass, scss, shell-session, solidity, sql, swift, systemd, toml, typescript, uri, vim, wasm, wiki, yaml.
 
 ## How to start
 
