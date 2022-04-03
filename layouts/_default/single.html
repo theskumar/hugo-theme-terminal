@@ -15,17 +15,18 @@
       <span class="post-author">:: {{ . }}</span>
     {{ end }}
     {{ if and (.Param "readingTime") (eq (.Param "readingTime") true) }}
-      <span class="post-reading-time">:: {{ .ReadingTime }} min read ({{ .WordCount }} words)</span>
+      <span class="post-reading-time">:: {{ .ReadingTime }} min</span>
     {{ end }}
+    {{ if .Params.tags }}
+    <span class="post-tags">
+      {{ range .Params.tags }}
+      <a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">#{{ . }}</a>
+      {{ end }}
+    </span>
+    {{ end }}
+
   </div>
 
-  {{ if .Params.tags }}
-  <span class="post-tags">
-    {{ range .Params.tags }}
-    #<a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">{{ . }}</a>&nbsp;
-    {{ end }}
-  </span>
-  {{ end }}
   {{ partial "cover.html" . }}
 
   {{ if (.Params.Toc | default .Site.Params.Toc) }}

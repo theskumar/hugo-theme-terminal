@@ -62,7 +62,7 @@
   }
 
   &-tags {
-    display: block;
+    display: inline;
     margin-bottom: 20px;
     font-size: 1rem;
     opacity: .5;
@@ -73,7 +73,11 @@
   }
 
   &-content {
-    margin-top: 30px;
+    margin-top: 10px;
+
+    a {
+      font-weight: 600; 
+    }
   }
 
   &-cover {
