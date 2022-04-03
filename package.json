@@ -10,8 +10,8 @@
     "not dead"
   ],
   "scripts": {
-    "dev": "webpack --mode=development --watch",
-    "build": "webpack --mode=production"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode=development --watch",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
